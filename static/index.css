@@ -1,0 +1,56 @@
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+hr{
+    width: 100%;
+}
+
+input[type=submit]{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(8 245 201);
+    font-size: 35px;
+    height: 40px;
+    width: 150px;
+}
+
+input[type=submit]:hover{
+    background-color: red;
+    color: rgb(8 245 201);
+}
+
+input[type=number]{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(255, 0, 200);
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+}
+
+input[type=number]::placeholder{
+    color: black;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+select{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #00ff00;
+    font-size: 20px;
+}
+h1{
+    font-size: 100px;
+}
