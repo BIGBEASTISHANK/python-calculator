@@ -11,31 +11,15 @@
     />
   </head>
   <body>
-<center>
-  <form method="POST">
-    <input
-      type="number"
-      name="num1"
-      placeholder=" Enter First Number"
-      required
-    /><br /><br />
-    <input
-      type="number"
-      name="num2"
-      placeholder=" Enter Second Number"
-      required
-    /><br /><br />
-    <label for="operator">Select a operator </label>
-    <select name="operator" required>
-      <option name="add">Add</option>
-      <option name="multi">Multiply</option>
-      <option name="sub">Substract</option>
-      <option name="divi">Divide</option></select
-    ><br /><br />
-    <input type="submit" value="submit" />
-    <hr />
-    <h1><b>{{result}}</b></h1>
-  </form>
-</center>
+<div class="webcalc">
+    <center>
+        <form method="POST">
+            <input type="text" name="equation" placeholder=" Enter Equation" required /><br /><br />
+            <br /><br />
+            <input type="submit" value="submit" />
+            <h1><b>{{result}}</b></h1>
+        </form>
+    </center>
+</div>
   </body>
 </html>
