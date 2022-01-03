@@ -3,8 +3,10 @@
     margin: none;
 }
 body{
-    background-color: black;
+    background-color: #0566bb;
     color: white;
+    padding-bottom: 25%;
+    padding-top: 2%;
 }
 hr{
     width: 100%;
@@ -25,7 +27,7 @@ input[type=submit]:hover{
     color: rgb(8 245 201);
 }
 
-input[type=number]{
+input[type=text]{
     outline: none;
     border: none;
     border-radius: 25px;
@@ -35,7 +37,7 @@ input[type=number]{
     width: 300px;
 }
 
-input[type=number]::placeholder{
+input[type=text]::placeholder{
     color: black;
 }
 
